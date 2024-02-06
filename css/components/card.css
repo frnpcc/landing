@@ -1,0 +1,27 @@
+.cards {
+display: flex;
+justify-content:space-between ;
+margin-bottom: 75px;
+}
+
+.card {
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(238, 238, 238, 0.478);
+  color: rgb(72, 72, 72);
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border-radius: 3px;
+  border: 1px solid rgba(72, 72, 72, 0.116);
+}
+
+.card img {
+  width: 200px;
+  border-radius: 1px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+}
+
+.card p {
+  color: rgb(133, 133, 133);
+  text-shadow: none;
+}
